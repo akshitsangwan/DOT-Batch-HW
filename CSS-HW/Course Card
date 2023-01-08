@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOT Batch Card</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600;700;800&display=swap");
+
+      body {
+        font-family: "Rubik", sans-serif;
+        /* box-sizing: border-box; */
+      }
+
+      .card {
+        margin: auto;
+        padding: 15px;
+        border: 1px solid rgb(248, 242, 242);
+        width: 400px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px 2px rgb(221, 207, 207);
+      }
+
+      .card-img {
+        width: 390px;
+        border-radius: 8px;
+      }
+
+      .content {
+        width: 76%;
+      }
+
+      .content hr {
+        color: rgba(245, 239, 239, 0.444);
+      }
+
+      .content span {
+        margin: 3px;
+        font-weight: bold;
+      }
+
+      .price-section {
+        padding: 10px 0;
+        line-height: 1.5rem;
+      }
+
+      .new-price {
+        color: rgb(102 116 204);
+      }
+
+      .original-price {
+        text-decoration: line-through;
+        color: grey;
+      }
+
+      .discount {
+        font-size: 15px;
+        padding: 6px;
+        border-radius: 6px;
+        background-color: rgb(154, 143, 143);
+        color: white;
+      }
+
+      .discount:hover {
+        background-color: rgb(134, 117, 117);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        class="card-img"
+        src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg"
+        alt="card-img"
+      />
+      <div class="content">
+        <h2>Web Development Master Course @dot Batch</h2>
+        <hr />
+        <div class="price-section">
+          <span class="new-price">&#8377;4500</span>
+          <span class="original-price">&#8377;6999</span>
+          <span class="discount">42% off</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
